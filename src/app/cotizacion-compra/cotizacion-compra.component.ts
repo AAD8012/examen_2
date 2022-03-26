@@ -44,6 +44,9 @@ export class CotizacionCompraComponent implements OnInit {
     name = name.trim();
 
     var newCotizacion = <ICotizacion>{};
+    newCotizacion.id=id;
+    newCotizacion.name=name;
+
 
 
 
