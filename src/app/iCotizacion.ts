@@ -1,5 +1,6 @@
 export interface ICotizacion {
-    id: number;
-    name: string;
+  id: string;
+  name: string;
 
-  }
+}
+
